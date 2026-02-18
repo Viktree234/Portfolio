@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Tobokebi Victory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+
+  <header class="site-header">
+    <a href="index.html#top" class="brand">TV</a>
+    <div class="header-right">
+      <nav>
+        <a href="index.html#about">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle light and dark theme" aria-pressed="false">
+        <span class="toggle-thumb"></span>
+        <span class="toggle-text">Dark</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero reveal">
+      <p class="eyebrow">Portfolio</p>
+      <h1>
+        Selected
+        <span>Projects</span>
+      </h1>
+      <p class="lead">
+        A snapshot of my recent web projects focused on product clarity, conversion, and speed.
+      </p>
+    </section>
+
+    <section class="project-list">
+      <article id="learning-dashboard" class="project-full card reveal">
+        <p class="project-type">Web App</p>
+        <h2>Learning Dashboard</h2>
+        <p>
+          A task and study planner that visualizes progress with weekly insights, focus sessions, and dynamic priorities.
+        </p>
+        <div class="project-links">
+          <a class="btn btn-primary" href="#">Live Demo</a>
+          <a class="btn btn-ghost" href="#">GitHub</a>
+        </div>
+      </article>
+
+      <article id="nova-studio" class="project-full card reveal">
+        <p class="project-type">Landing Page</p>
+        <h2>Nova Studio</h2>
+        <p>
+          A high-converting agency landing page with structured storytelling, modular sections, and fast-loading assets.
+        </p>
+        <div class="project-links">
+          <a class="btn btn-primary" href="#">Live Demo</a>
+          <a class="btn btn-ghost" href="#">GitHub</a>
+        </div>
+      </article>
+
+      <article id="urban-cart" class="project-full card reveal">
+        <p class="project-type">E-Commerce</p>
+        <h2>Urban Cart</h2>
+        <p>
+          An online store experience built for quick browsing, trust signals, and reduced checkout friction.
+        </p>
+        <div class="project-links">
+          <a class="btn btn-primary" href="#">Live Demo</a>
+          <a class="btn btn-ghost" href="#">GitHub</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Tobokebi Victory</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

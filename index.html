@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tobokebi Victory | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+
+  <header class="site-header">
+    <a href="index.html#top" class="brand">TV</a>
+    <div class="header-right">
+      <nav>
+        <a href="index.html#about">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle light and dark theme" aria-pressed="false">
+        <span class="toggle-thumb"></span>
+        <span class="toggle-text">Dark</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">Frontend Developer</p>
+      <h1>
+        I design and build
+        <span>bold digital experiences</span>
+      </h1>
+      <p class="lead">
+        I’m Tobokebi Victory, a developer focused on polished interfaces, clear user journeys, and high-performance web products.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="projects.html">View Projects</a>
+        <a class="btn btn-ghost" href="#contact">Let’s Work Together</a>
+      </div>
+    </section>
+
+    <section id="about" class="about card reveal">
+      <h2>About</h2>
+      <p>
+        I help ideas become functional, elegant websites. My workflow combines clean code, strong visual direction, and attention to detail from first layout to final deployment.
+      </p>
+    </section>
+
+    <section id="work" class="work reveal">
+      <div class="section-heading">
+        <h2>Selected Work</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card card">
+          <p class="project-type">Web App</p>
+          <h3>Learning Dashboard</h3>
+          <p>A productivity dashboard with progress analytics and adaptive study planning.</p>
+          <a href="projects.html#learning-dashboard" aria-label="Open Learning Dashboard">Case Study</a>
+        </article>
+        <article class="project-card card">
+          <p class="project-type">Landing Page</p>
+          <h3>Nova Studio</h3>
+          <p>A conversion-first marketing page with custom visuals and smooth transitions.</p>
+          <a href="projects.html#nova-studio" aria-label="Open Nova Studio">Case Study</a>
+        </article>
+        <article class="project-card card">
+          <p class="project-type">E-Commerce</p>
+          <h3>Urban Cart</h3>
+          <p>An online storefront optimized for quick browsing, trust, and checkout speed.</p>
+          <a href="projects.html#urban-cart" aria-label="Open Urban Cart">Case Study</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact card reveal">
+      <h2>Let’s Build Something Great</h2>
+      <p>Available for freelance and collaboration opportunities.</p>
+      <a class="btn btn-primary" href="mailto:your@email.com">Send Email</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Tobokebi Victory</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
