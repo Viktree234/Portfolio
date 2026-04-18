@@ -14,8 +14,8 @@ export const projects = [
     title: "Nova Studio",
     description:
       "A conversion-first marketing page with custom visuals and smooth transitions.",
-    github: "https://github.com/tobokebi/nova-studio",
-    liveDemo: "https://nova-studio.vercel.app",
+    github: "https://github.com/viktree234/portfolio/tree/main/landing-page",
+    liveDemo: "https://nexa-one-chi.vercel.app/",
   },
   {
     id: "urban-cart",
