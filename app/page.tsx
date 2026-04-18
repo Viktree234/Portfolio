@@ -33,8 +33,8 @@ export default function HomePage() {
 
   return (
     <>
-      <div className="ambient ambient-a" />
-      <div className="ambient ambient-b" />
+      <div className="ambient ambient-a" aria-hidden="true" />
+      <div className="ambient ambient-b" aria-hidden="true" />
 
       <Header />
 
@@ -79,8 +79,10 @@ export default function HomePage() {
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
                 <a
-                  href={`/projects#${project.id}`}
-                  aria-label={`Open ${project.title}`}
+                  href={project.liveDemo}
+                  aria-label={`View ${project.title}`}
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Case Study
                 </a>
@@ -92,7 +94,7 @@ export default function HomePage() {
         <section id="contact" className="contact card reveal" ref={setRef(2)}>
           <h2>Let’s Build Something Great</h2>
           <p>Available for freelance and collaboration opportunities.</p>
-          <a className="btn btn-primary" href="viktree234@gmail.com">
+          <a className="btn btn-primary" href="mailto:viktree234@gmail.com">
             Send Email
           </a>
         </section>

@@ -33,8 +33,8 @@ export default function ProjectsPage() {
 
   return (
     <>
-      <div className="ambient ambient-a" />
-      <div className="ambient ambient-b" />
+      <div className="ambient ambient-a" aria-hidden="true" />
+      <div className="ambient ambient-b" aria-hidden="true" />
 
       <Header />
 
@@ -62,10 +62,10 @@ export default function ProjectsPage() {
               <h2>{project.title}</h2>
               <p>{project.description}</p>
               <div className="project-links">
-                <a className="btn btn-primary" href={project.liveDemo}>
+                <a className="btn btn-primary" href={project.liveDemo} rel="noopener noreferrer" target="_blank">
                   Live Demo
                 </a>
-                <a className="btn btn-ghost" href={project.github}>
+                <a className="btn btn-ghost" href={project.github} rel="noopener noreferrer" target="_blank">
                   GitHub
                 </a>
               </div>

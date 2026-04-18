@@ -28,5 +28,6 @@ document.getElementById("year").textContent = new Date().getFullYear();
 const sendBtn = document.getElementById("sendBtn");
 const formNote = document.getElementById("formNote");
 sendBtn.addEventListener("click", () => {
-  formNote.textContent = "✅ Message ready. (Next we can connect this to Email / WhatsApp / backend.)";
+  formNote.innerHTML = '✓ Message ready. (Next we can connect this to Email / WhatsApp / backend.)';
+  formNote.classList.add("show");
 });

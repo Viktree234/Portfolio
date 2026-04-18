@@ -8,11 +8,11 @@ export default function Header() {
 
   return (
     <header className="site-header">
-      <Link href="/#top" className="brand">
+      <Link href="/#top" className="brand" aria-label="Tobokebi Victory - Home">
         TV
       </Link>
       <div className="header-right">
-        <nav>
+        <nav aria-label="Main navigation">
           <Link href="/#about">About</Link>
           <Link href="/projects">Projects</Link>
           <Link href="/#contact">Contact</Link>
