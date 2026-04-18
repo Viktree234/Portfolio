@@ -18,12 +18,12 @@ export const projects = [
     liveDemo: "https://nexa-one-chi.vercel.app/",
   },
   {
-    id: "urban-cart",
+    id: "NG-Classic",
     type: "E-Commerce",
-    title: "Urban Cart",
+    title: "NG-Classic",
     description:
       "An online storefront optimized for quick browsing, trust, and checkout speed.",
-    github: "https://github.com/tobokebi/urban-cart",
-    liveDemo: "https://urban-cart.vercel.app",
+    github: "https://github.com/viktree234/NG-Classic",
+    liveDemo: "https://ng-classic.vercel.app",
   },
 ];
