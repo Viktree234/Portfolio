@@ -11,13 +11,17 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: "Tobokebi Victory | Frontend Developer Portfolio",
-  description: "Frontend Developer portfolio - Discover projects focused on polished interfaces, clear user journeys, and high-performance web products.",
+  description:
+    "Frontend Developer portfolio - Discover projects focused on polished interfaces, clear user journeys, and high-performance web products.",
   keywords: ["frontend", "developer", "portfolio", "web development", "React", "TypeScript"],
   authors: [{ name: "Tobokebi Victory" }],
   openGraph: {
     title: "Tobokebi Victory | Frontend Developer Portfolio",
     description: "Explore my web development projects and case studies.",
     type: "website",
+  },
+  verification: {
+    google: "4bZJivB7ymUyEi6fPG8HhqI2dED6P45sXv_RsftJsxs",
   },
 };
 
